@@ -11,7 +11,7 @@
 
 
 
-marks = int(input(" Enter The Marks :"))
+""" marks = int(input(" Enter The Marks :"))
 
 if (marks  >= 90) :
     grade ="A"
@@ -24,4 +24,26 @@ elif (marks >=60 and marks <70):
 else : 
     grade="Fail"            
 
-print("grade of the student ->", grade)
+print("grade of the student ->", grade) """
+
+
+""" Movies = []
+mov1 = input("enter 1st movie :")
+mov2 = input("enter 2nd movie :")
+mov3 = input("enter 3rd movie :")
+Movies.append(mov1)
+Movies.append(mov2)
+Movies.append(mov3)
+print(Movies) """
+
+list1 = [1,2,1]
+list2 = [1,2,3]
+
+copy_list1 = list1.copy()
+copy_list1.reverse()
+
+if(copy_list1==list1):
+    print("Plaindrome")
+
+else :
+    print("Not a plaindrome")    
