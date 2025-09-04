@@ -36,7 +36,7 @@ Movies.append(mov2)
 Movies.append(mov3)
 print(Movies) """
 
-list1 = [1,2,1]
+'''list1 = [1,2,1]
 list2 = [1,2,3]
 
 copy_list1 = list1.copy()
@@ -46,4 +46,31 @@ if(copy_list1==list1):
     print("Plaindrome")
 
 else :
-    print("Not a plaindrome")    
+    print("Not a plaindrome")     '''
+
+
+'''dict = {
+    "cat" : "A small animal",
+    "table" : ["a piece of furniture", "list of facts and fiqures"]
+}
+print(dict)'''
+
+
+'''subjects = {
+    "python", "java", "C++", "C", "Javascript", "python", "java", "C++", "C"
+}
+print(len(subjects))'''
+
+
+marks =  {}
+
+x = int(input("enter phy : "))
+marks.update({"phy": x})
+
+x = int(input("enter chem : "))
+marks.update({"chem": x})
+
+x = int(input("enter math : "))
+marks.update({"math": x})
+
+print(marks)
