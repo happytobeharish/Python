@@ -62,7 +62,7 @@ print(dict)'''
 print(len(subjects))'''
 
 
-marks =  {}
+'''marks =  {}
 
 x = int(input("enter phy : "))
 marks.update({"phy": x})
@@ -73,4 +73,29 @@ marks.update({"chem": x})
 x = int(input("enter math : "))
 marks.update({"math": x})
 
-print(marks)
+print(marks)'''
+
+'''i=100
+while  i>=1 :
+    print (i)
+    i-=1'''
+'''n=int(input("enter number :"))
+i=1
+while i<=10 :
+    print (n*i)
+    i+=1'''
+
+
+'''str = "Harish"
+
+for char in str :
+    print (char)'''
+
+
+'''for i in range (2,100,2):
+    print(i)'''
+
+for i in range (5) :
+    pass 
+print("some useful work")
+    
