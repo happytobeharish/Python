@@ -95,7 +95,49 @@ for char in str :
 '''for i in range (2,100,2):
     print(i)'''
 
-for i in range (5) :
+'''for i in range (5) :
     pass 
-print("some useful work")
-    
+print("some useful work")'''
+
+
+'''def converter (usd_val) :
+    inr_val = usd_val *83
+    print (usd_val , "USD = " , inr_val , "INR")
+
+converter(20)'''
+
+'''def check_even_odd(number: int) -> str:
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+
+print(check_even_odd(10))
+print(check_even_odd(7))'''
+
+#recursive function
+'''def show (n):
+    if (n==0):
+        return
+    print(n)
+    show(n-1)
+
+show (5)'''
+
+
+"""f = open ("File.txt", "rt")
+data = f.read()
+print(data)
+print(type(data))
+f.close"""
+
+"""f = open ("File.txt", "a")
+f.write("byee byeee byeee 123 hello again")
+f.close"""
+
+import os
+
+"""f=open("hello.txt", "w")
+f.close"""
+
+os.remove("hello.txt")
