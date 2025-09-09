@@ -135,9 +135,40 @@ f.close"""
 f.write("byee byeee byeee 123 hello again")
 f.close"""
 
-import os
+#import os
 
 """f=open("hello.txt", "w")
 f.close"""
 
-os.remove("hello.txt")
+#os.remove("hello.txt")
+
+#oops
+
+class Account :
+    def __init__(self , bal , acc):
+        self.balence = bal
+        self.account_no = acc
+
+    #debit method
+    def debit (self , amount) :
+        self.balence -=amount
+        print("Rs" , amount , "was debited")
+        print("Total balance = " , self.get_balence())
+
+
+    def credit (self , amount) :
+        self.balence +=amount
+        print("Rs" , amount , "was credited")
+        print("Total balance = " , self.get_balence())
+
+
+    def get_balence(self):
+        return self.balence
+
+acc1 = Account(10000 , 12345)
+print(acc1.balence)
+print(acc1.account_no)      
+acc1.debit(1000)
+acc1.credit(500)
+ 
+        
